@@ -2,7 +2,7 @@ from langdetect import detect, DetectorFactory
 from langcodes import Language
 from langdetect import LangDetectException
 
-# Setting seed for consistent detection results (optional)
+# Setting seed for consistent detection results 
 DetectorFactory.seed = 0
 
 def detect_language(text):
